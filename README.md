@@ -5,4 +5,4 @@
 [![Python 3](https://pyup.io/repos/github/heitor-oss/django_project/python-3-shield.svg)](https://pyup.io/repos/github/heitor-oss/django_project/)
 
 
-Readme 1.0
+Readme 2.0
