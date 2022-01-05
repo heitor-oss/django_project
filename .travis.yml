@@ -2,6 +2,7 @@ language: python
 dist: xenial
 sudo: true
 env:
+  -CODECOV_TOKEN='e1bea5e5-0aa4-4103-a519-f19bdd602c2d'
   global:
     -PIPENV_VENV_IN_PROJECT=1
     -PIPENV_IGNORE_VIRTUALENVS=1
@@ -10,7 +11,6 @@ python:
 install:
   - pip install pipenv
   - pipenv sync -d
-  -
 script:
   - pipenv run flake8
   - pipenv run pytest --cov=pypro
